@@ -1,0 +1,31 @@
+{
+  "name": "prototypeof",
+  "version": "1.0.0",
+  "description": "👌 Simply get the type of an object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run eslint && ava",
+    "eslint": "eslint --format=node_modules/eslint-formatter-pretty ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notetiene/prototypeof.git"
+  },
+  "keywords": [
+    "typeof",
+    "type",
+    "prototype",
+    "class"
+  ],
+  "author": "Etienne Prud’homme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/notetiene/prototypeof/issues"
+  },
+  "homepage": "https://github.com/notetiene/prototypeof#readme",
+  "devDependencies": {
+    "ava": "*",
+    "eslint": "^3.19.0",
+    "eslint-formatter-pretty": "^1.1.0"
+  }
+}
